@@ -2,6 +2,8 @@
 
 A comprehensive example demonstrating how to use [Maestro](https://github.com/caseywescott/Maestro) for interactive music applications with React.
 
+> **Note**: This example currently only supports MIDI files (.mid, .midi) with SoundFont synthesis. Audio file playback (.mp3, .wav, etc.) is not implemented.
+
 ## 🎵 Features
 
 - **Smart Transitions**: Intelligent musical transitions with context awareness
@@ -9,6 +11,7 @@ A comprehensive example demonstrating how to use [Maestro](https://github.com/ca
 - **MIDI Analysis**: Comprehensive MIDI file analysis and visualization
 - **Real-time Controls**: Tempo, transpose, reverb, and instrument switching
 - **Adaptive Music**: Dynamic layer adjustments based on user actions
+- **MIDI-Only Support**: Currently supports MIDI files (.mid, .midi) with SoundFont synthesis
 
 ## 🚀 Quick Start
 
@@ -92,6 +95,17 @@ iMuse.seek(0.5)  // Seek to 50%
 
 5. **Open in browser**
    Navigate to http://localhost:8080
+
+## 🎼 Supported Formats
+
+### Currently Supported
+- **MIDI Files** (.mid, .midi) - Full support for MIDI file playback and analysis
+- **SoundFonts** (.sf2) - For realistic instrument synthesis
+
+### Not Currently Supported
+- **Audio Files** (.mp3, .wav, .ogg, etc.) - Audio file playback is not implemented
+- **Streaming Audio** - Real-time audio streaming is not supported
+- **Other Formats** - Only MIDI-based music is currently supported
 
 ## 🎼 Adding SoundFonts
 
